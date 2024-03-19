@@ -4,7 +4,6 @@ from compounds_tracking import reset_global_variables, compound_registration, as
 class TestCompoundsTracking(unittest.TestCase):
 
     def setUp(self):
-        # 在每个测试方法执行之前重置全局变量
         reset_global_variables()
 
     def test_compound_registration_valid(self):
