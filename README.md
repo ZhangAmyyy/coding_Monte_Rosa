@@ -73,9 +73,9 @@ python test_compounds_tracking.py
 
 4. **Assumption 4**: A given compound cannot be simultaneously added to two different wells.
 
-5. **Assumption 7**: The system assumes that there is a one-to-many relationship between wells and compounds, meaning that a single well can contain multiple compounds.
+5. **Assumption 5**: The system assumes that there is a one-to-many relationship between wells and compounds, meaning that a single well can contain multiple compounds.
 
-6. **Assumption 8**: The system assumes that compounds are uniquely identified by their compound codes. Duplicate compound codes are not allowed.
+6. **Assumption 6**: The system assumes that compounds are uniquely identified by their compound codes. Duplicate compound codes are not allowed.
 
 ## Design of the Extension
 
